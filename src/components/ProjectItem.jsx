@@ -10,9 +10,9 @@ export default function ProjectItem(project) {
                 <h1>{project.name}</h1>
             </div>
             <div className=' h-1/6 px-3 m-1 flex flex-col'>
-                <h1 className='h-1/2 text-xs md:text-[1.2vw]'>{project.about}</h1>
-                <button className='pl-4 bg-white py-1 mt-[3vh] font-medium w-44' >view live project<ArrowRightAlt className='mx-2'/></button>
-            </div>   
+                <p className='h-1/2 text-xs md:text-[1.2vw] '>{project.about}</p>
+                <a className='pl-4 bg-white py-1 mt-[3vh] font-medium w-44' href={project.url} target="_blank" rel="noopener noreferrer" >view live project<ArrowRightAlt className='mx-2'/></a>
+            </div>                              {/* rel is added in the above line is to prevent Tabnabbing, a phishing attack! */}
             
     </div>
   )

@@ -11,7 +11,7 @@ export default function Banner() {
 
       <div className='flex items-center  basis-3/6 px-1 md:px-20 py-5 md:py-10'>
         <div className='relative'>
-          <SocialIcons className="flex flex-col absolute left-1 bottom-1 text-neutral-300" githubIconColor='hover:text-[#656565]' />  {/*here ClassName and githubIconColor is props value of this component*/}
+          <SocialIcons className="flex flex-col absolute left-1 bottom-1 text-neutral-300" githubIconColor='hover:text-[#656565] hover:cursor-pointer' />  {/*here ClassName and githubIconColor is props value of this component*/}
           <img className=' shadow-2xl object-contain' src="./assets/nevin-banner.jpg" alt="" />
         </div>
       </div>

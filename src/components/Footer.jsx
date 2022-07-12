@@ -11,7 +11,7 @@ export default function Footer() {
         <h1 className=' text-xl font-normal underline text-slate-900'>nevinpaul828@gmail.com</h1>
         <div className='flex justify-between'>
             <h1 className=' text-4xl text-[#6c7e72] hover:cursor-pointer'>NEVN<span className=' text-emerald-900 font-["Oswald"] text-4xl'>.</span> </h1>
-            <SocialIcons className='text-neutral-500 flex justify-between w-52 pt-2 md:pt-0' githubIconColor='hover:text-[#333]'/> {/* here ClassName and githubIconColor is props value of this component */}
+            <SocialIcons className='text-neutral-500 flex justify-between w-52 pt-2 md:pt-0' githubIconColor='hover:text-[#333] hover:cursor-pointer'/> {/* here ClassName and githubIconColor is props value of this component */}
         </div>
         
     </div>

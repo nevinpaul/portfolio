@@ -3,7 +3,8 @@ export const ProjectData = [
         id : 1,
         name : 'Social App UI',
         projectImg : "./assets/social-app.jpg",
-        about : 'A UI designed for social media application using Reactjs'
+        about : 'A UI designed for social media application using Reactjs',
+        url : 'https://nevinpaul.github.io/social-app/'
     },
     {
         id : 2,
