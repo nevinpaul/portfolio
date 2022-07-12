@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Navbar() {
   return (
-    <div className=' h-20 px-[0.5%] md:px-[4%] flex justify-between items-center'>
+    <div className=' h-20 px-[2%] md:px-[4%] flex justify-between items-center'>
         <h1 className=' text-2xl pb-3 md:pb-0 md:text-3xl text-[#6c7e72] hover:cursor-pointer '>NEVN<span className=' text-emerald-900 font-["Oswald"] text-4xl'>.</span> </h1>
 
         <div className=' flex justify-between gap-5 md:gap-16 items-center font-semibold text-xs md:text-lg'>
