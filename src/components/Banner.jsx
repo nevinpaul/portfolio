@@ -6,7 +6,7 @@ export default function Banner() {
     <div className='flex flex-col-reverse md:flex-row h-auto'>
       <div className='text-[7vw] md:text-[3.5vw] pt-[10%] pl-[4%] basis-4/6'>
         <h1 className='font-bold'>HI, I'M NEVIN. <br/> A FULL STACK DEVELOPER </h1>
-        <h1 className='font-thin text-neutral-800'>I make web applications, usually with MERN</h1>
+        <h1 className='font-thin text-neutral-800'>I make web applications with MERN</h1>
       </div>
 
       <div className='flex items-center  basis-3/6 px-4 md:px-20 py-5 md:py-10'>
